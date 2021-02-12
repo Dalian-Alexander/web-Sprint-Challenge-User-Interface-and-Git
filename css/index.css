@@ -179,6 +179,57 @@ div .links{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/*About Page*/
+/*About Section*/
+.top{
+    border-bottom:1px dashed black;
+}
+}
+.about{
+    width: 100%;
+}
+div.middle-section{
+    display: flex;
+    flex-flow: row;
+    margin:2% auto;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.middle-section img{
+    width: 100%;
+}
+div.strategy,.how-we-work{
+    display: flex;
+    flex-flow: wrap;
+    /* flex-direction: row; */
+    width:48%;
+    margin:1%;
+    border-bottom:1px dotted black;
+}
+.places-we-work,.collaboration{
+    display: flex;
+    flex-flow: wrap;
+    /* flex-direction: row; */
+    width:48%;
+    margin:1%;
+    border-bottom:1px dotted black;
+}
+.middle h2, p{
+    margin:2% 0%;
+}
+.middle a{
+    border:1px solid grey;
+    padding:2% 6%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 4%;
+
+}
+/*Bottom Section*/
+.bottom{
+    margin:0 2% 20px;
+}
 
 /*Footer*/
 
