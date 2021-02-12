@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    /* border:1px solid grey; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -70,7 +71,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/*Navigation*/
+header nav{
+    display: flex;
+    width:100%;
+    margin-top: 1%;
 
+}
+nav a{
+    text-decoration: none;
+    /* width: 15%; */
+    margin-left:5%;
+    margin-top:auto;
+    color: black;
+}
+div .links{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.jumbo{
+    margin:3% 0 2% 0;
+}
+/*Top Content Section*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +107,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/*Middle Section*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -101,16 +125,47 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
+/*Bottom Section*/
 
 .bottom-content {
     display: flex;
@@ -125,6 +180,59 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/*About Page*/
+/*About Section*/
+.top{
+    border-bottom:1px dashed black;
+}
+}
+.about{
+    width: 100%;
+}
+div.middle-section{
+    display: flex;
+    flex-flow: row;
+    margin:2% auto;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.middle-section img{
+    width: 100%;
+}
+div.strategy,.how-we-work{
+    display: flex;
+    flex-flow: wrap;
+    /* flex-direction: row; */
+    width:48%;
+    margin:1%;
+    border-bottom:1px dotted black;
+}
+.places-we-work,.collaboration{
+    display: flex;
+    flex-flow: wrap;
+    /* flex-direction: row; */
+    width:48%;
+    margin:1%;
+    border-bottom:1px dotted black;
+}
+.middle h2, p{
+    margin:2% 0%;
+}
+.middle a{
+    border:1px solid grey;
+    padding:2% 6%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 4%;
+
+}
+/*Bottom Section*/
+.bottom{
+    margin:0 2% 20px;
+}
+
+/*Footer*/
 
 footer {
     width: 100%;
